@@ -18,3 +18,10 @@ document.querySelector('.date').onclick = () => {
     let d = document.querySelector('.i-4').value;
     console.log(d);
 };
+
+document.querySelector('.numbers').onchange = () => {
+    let e = document.querySelector('.numbers').value;
+    console.log(e);
+};
+
+// document.querySelector('.numbers').value = 3;
