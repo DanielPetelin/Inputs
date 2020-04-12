@@ -13,3 +13,8 @@ document.querySelector('.color').onclick = () => {
     document.querySelector('.color').style.background = c;
     console.log(c);
 };
+
+document.querySelector('.date').onclick = () => {
+    let d = document.querySelector('.i-4').value;
+    console.log(d);
+};
