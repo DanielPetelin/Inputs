@@ -35,3 +35,13 @@ document.querySelector('.ch-1').onchange = () => {
 
 // document.querySelector('.ch-1').checked = true;
 // document.querySelector('.ch-1').checked = false;
+
+document.querySelector('.radio').onclick = () => {
+    let r = document.querySelectorAll('input[name="r"]');
+    for (let i = 0; i < r.length; i++) {
+        if (r[i].checked) {
+            console.log(r[i].value);
+            break;
+        };
+    };    
+};
