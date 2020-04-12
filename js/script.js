@@ -25,3 +25,13 @@ document.querySelector('.numbers').onchange = () => {
 };
 
 // document.querySelector('.numbers').value = 3;
+
+document.querySelector('.ch-1').onchange = () => {
+    if (document.querySelector('.ch-1').checked == true) {
+        let ch = document.querySelector('.ch-1').value;
+        console.log(ch);
+    };
+};
+
+// document.querySelector('.ch-1').checked = true;
+// document.querySelector('.ch-1').checked = false;
